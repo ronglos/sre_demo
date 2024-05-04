@@ -1,0 +1,87 @@
+testbed:
+  name: SRE_Testbed
+  credentials:
+    default:
+      username: ciscoadmin
+      password: C1sco12345
+devices:
+  rtr1:
+    alias: rtr1
+    type: IOSv
+    os: ios
+    connections:
+      defaults:
+        class: unicon.Unicon
+      cli:
+        protocol: telnet
+        ip: 172.16.100.81
+  rtr2:
+    alias: rtr2
+    type: IOSv
+    os: ios
+    connections:
+      defaults:
+        class: unicon.Unicon
+      cli:
+        protocol: telnet
+        ip: 172.16.100.82
+  rtr3:
+    alias: rtr3
+    type: IOSv
+    os: ios
+    connections:
+      defaults:
+        class: unicon.Unicon
+      cli:
+        protocol: telnet
+        ip: 172.16.100.83
+  sw1:
+    alias: sw1
+    type: IOSvL2
+    os: ios
+    connections:
+      defaults:
+        class: unicon.Unicon
+      cli:
+        protocol: telnet
+        ip: 172.16.100.84
+  sw2:
+    alias: sw2
+    type: IOSvL2
+    os: ios
+    connections:
+      defaults:
+        class: unicon.Unicon
+      cli:
+        protocol: telnet
+        ip: 172.16.100.85
+  sw3:
+    alias: sw3
+    type: IOSvL2
+    os: ios
+    connections:
+      defaults:
+        class: unicon.Unicon
+      cli:
+        protocol: telnet
+        ip: 172.16.100.86
+  sw4:
+    alias: sw4
+    type: IOSvL2
+    os: ios
+    connections:
+      defaults:
+        class: unicon.Unicon
+      cli:
+        protocol: telnet
+        ip: 172.16.100.87
+  sw5:
+    alias: sw5
+    type: IOSvL2
+    os: ios
+    connections:
+      defaults:
+        class: unicon.Unicon
+      cli:
+        protocol: telnet
+        ip: 172.16.100.88
